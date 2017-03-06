@@ -6,10 +6,11 @@ title: Crates of Saw
 ---
 
 # Hi there, I'm Saw!
-I'm a senior Electrical Engineering student from 
+I'm an Electrical Engineering student from 
 Penn State University.  
 
-I enjoy tinkering with electrical components as well as working with Mathematics and Algorithms. I do a lot of side projects in my free time. Please check it out!
+My hobby is playing the piano but I enjoy tinkering with electrical components as well as working with programming, mathematics and algorithms.
+I work on some side projects in my free time. Please check them out!
 
 
 * Projects
