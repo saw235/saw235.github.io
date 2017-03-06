@@ -27,6 +27,8 @@ I work on some side projects in my free time. Please check them out!
 ## Real-time Image Filtering using FPGA {#imagefilter}
 > This is my chosen project for the Advanced Digital Design class. Two 3x3 sliding window filters are implemented using the Nexys4-DDR board. 
 
+Repository: [Github](https://github.com/saw235/VHDL)
+
 <figure class="video_container">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/Z--MAIgVxYw" frameborder="0" allowfullscreen></iframe>
 </figure> {::options parse_block_html="true" /}
