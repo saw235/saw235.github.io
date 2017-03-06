@@ -85,7 +85,7 @@ See <a href ="https://en.wikipedia.org/wiki/Mask_(computing)#Image_masks">https:
 </div> {::options parse_block_html="true" /}
 {::options parse_block_html="false" /}
 
-![GUI](/img/project_img/CPAPGUI.png)
-![Terminal](/img/project_img/Putty.png)
+![GUI](/img/project_img/CPAPGUI.PNG)
+![Terminal](/img/project_img/Putty.PNG)
 
 ---
