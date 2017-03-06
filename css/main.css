@@ -29,7 +29,17 @@ footer {
 }
 
 .main img{
-    width: 200px;
+    width: 600px;
     height: auto;
 }
 
+.ImageText p{
+    font-family: sans-serif;
+    font-size: 100%;
+
+}
+
+.ExtraBlurp p{
+    font-family: sans-serif;
+    font-size: 100%;
+}
