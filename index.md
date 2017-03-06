@@ -16,8 +16,12 @@ I work on some side projects in my free time. Please check them out!
 * Projects
 	* [Real-time Image Filtering using FPGA](#imagefilter)
 	* [Capacitive CPAP Mask Programming](#cpap)
-	* Messenger App
+	* [Messenger App](#msg_app)
 
+* WriteUps (Coming soon)
+	* Digital Logics / VHDL
+	* EulerProject Problems
+	* LeetCode Problems
 
 ---
 ## Real-time Image Filtering using FPGA {#imagefilter}
@@ -81,12 +85,26 @@ See <a href ="https://en.wikipedia.org/wiki/Mask_(computing)#Image_masks">https:
 
 <div class = "ExtraBlurp"> 
 
-<p></p>
+<p style="font-size: 100%; font-family: sans-serif;">A prototype for the CPAP mask with capacitive sensors on it. A sensing controller samples data from each of the sensors. Another microcontroller then polls the samples and process the samples (ie: performs calibration, encodes the samples and output serially etc. ...)</p>
 
 </div> {::options parse_block_html="true" /}
 {::options parse_block_html="false" /}
 
-![GUI](/img/project_img/CPAPGUI.PNG)
-![Terminal](/img/project_img/Putty.PNG)
+<div class = "CPAP_IMG"> 
+<p><img src="/img/project_img/CPAP.jpg" alt="CPAP" />
+<img src="/img/project_img/CPAP1.jpg" alt="CPAP1" />
+<img src="/img/project_img/CPAP2.jpg" alt="CPAP2" />
+<img src="/img/project_img/CPAP3.jpg" alt="CPAP3" />
+<img src="/img/project_img/CPAP4.jpg" alt="CPAP4" />
+<img src="/img/project_img/CPAP5.jpg" alt="CPAP5" />
+
+<p style="font-size: 100%; font-family: sans-serif;">The GUI is developed entirely using PyQt5. The new style signal and slots mechanism makes the implementations relatively quick and easy. The GUI has a serial listener thread that asynchronously reads data from the microcontroller.</p>
+<img class="CPAP_GUI" src="/img/project_img/CPAPGUI.PNG" alt="GUI" />
+<img class="CPAP_GUI" src="/img/project_img/Putty.PNG" alt="Terminal" /></p>
+
+</div> {::options parse_block_html="true" /}
+{::options parse_block_html="false" /}
 
 ---
+
+## Messenger App {#msg_app}
