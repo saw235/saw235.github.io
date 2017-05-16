@@ -15,9 +15,9 @@ Here I have included the diagrams that I thought are important to understand the
 The image below shows the Top Level overview of the filter implementation.
 The entire process is fairly straightforward. From the left, the diagram shows the Image being serialized from hardcoded rom, shifted into the kernel filter for processing. The output is then loaded into a buffer and starts another filtering process and finally is outputted in VGA format.
 
-A buffer is not needed but is utilized to simplify the process of two stages filtering. For example, the filters can be implemented directly to filter twice as the pixels are accumulated. The complexity involved may be too much and impractical to implement.
+A buffer is not needed but is utilized to simplify the process of two stages filtering. For example, the filters can be implemented directly to filter twice as the pixels are accumulated. The complexity involved, however, may be too much and impractical to implement.
 
-As a seperate functionality, an additionaly image stored in rom can also be overlaid on top of the rom images by performing some simply operations. 
+As a seperate functionality, an additionaly image stored in rom can also be overlaid on top of the rom images by performing some simple operations. 
 The details can be read [here](https://en.wikipedia.org/wiki/Mask_(computing)#Image_masks)
 
 ![Top Level Overview](/img/project_img/Pg1_Top Level Overview.jpg){:class="imgfilterdiagrams"}
