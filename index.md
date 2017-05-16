@@ -6,11 +6,10 @@ title: Crates of Saw
 ---
 
 # Hi there, I'm Saw!
-I'm an Electrical Engineering student from 
-Penn State University.  
+I am a fresh graduate majoring in Electrical Engineering from Penn State University.  
 
-My hobby is playing the piano but I enjoy tinkering with electrical components as well as working with programming, mathematics and algorithms.
-I work on some side projects in my free time. Please check them out!
+I enjoy tinkering with electrical components as well as working with programming, mathematics and algorithms.
+I work on some side projects in my free time. Feel free to check them out!
 
 
 * Projects
@@ -18,7 +17,7 @@ I work on some side projects in my free time. Please check them out!
 	* [Capacitive CPAP Mask Programming](#cpap)
 	* [Messenger App](#msg_app)
 
-* WriteUps (Coming soon)
+* WriteUps
 	* Digital Logics / VHDL
 	* EulerProject Problems
 	* LeetCode Problems
@@ -27,7 +26,10 @@ I work on some side projects in my free time. Please check them out!
 ## Real-time Image Filtering using FPGA {#imagefilter}
 > This is my chosen project for the Advanced Digital Design class. Two 3x3 sliding window filters are implemented using the Nexys4-DDR board. 
 
+
 Repository: [Github](https://github.com/saw235/VHDL)
+
+Implementation Details: [Diagrams](/fpgaimagefilter.html)
 
 <figure class="video_container">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/Z--MAIgVxYw" frameborder="0" allowfullscreen></iframe>
