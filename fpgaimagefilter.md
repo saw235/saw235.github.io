@@ -28,7 +28,9 @@ The details can be read [here](https://en.wikipedia.org/wiki/Mask_(computing)#Im
 
 The three images below shows the implementation behind the sliding window image filtering method.
 
-The first image shows the simplified idea of the entire process, whereas the second image shows the implementation of sliding window. You can see in this image that the 9 pixel data shifted in with their serialized form forms a 3x3 window. When implementing this, I included the FIFO as part of the window component so that the whole thing consist of only two components: the top part and the bottom part.
+The first image shows the simplified idea of the entire process, whereas the second image shows the implementation of the sliding window in actualty. 
+
+You can see in this image that the 9 pixel data shifted in forms a 3x3 window. When implementing this, I included the FIFO as part of the window component so that the whole thing consist of only two components: the top part and the bottom part.
 
 #### Filtering using a sliding 3x3 kernel
 ![Filtering Overview](/img/project_img/Pg2_Filtering Overview.jpg){:class="imgfilterdiagrams"}
