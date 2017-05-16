@@ -53,6 +53,8 @@ Again, some of the states are redundant and can be combined but are seperated fo
 
 Do remember that each of the state uses up at least one clock cycle (if no loop), however, and thus introduces delays. If your specific application is a hard real time system (ie, you need the image to be filtered within a specific amount of time), then it might not meet the requirement of the system. The same thing can be said for the pipelining process of the convolution unit.
 
+What you can do at this point is to either increase the clock frequency of the board and deal with a more stringent timing requirements, or come out with a quicker algorithm which requires less clock cycle to complete a full filtering process.
+
 ![image-title-here](/img/project_img/Pg5_FSM KernelFilter_3x3.jpg){:class="imgfilterdiagrams"}
 
 ![image-title-here](/img/project_img/StateTable.PNG){:class="imgfilterdiagrams"}
