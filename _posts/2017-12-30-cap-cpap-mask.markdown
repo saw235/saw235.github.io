@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Capacitive CPAP Mask Programming"
+date:   2017-12-30 12:00:00
+---
+
+Towards the end of my undergrad in Penn State Behrend, we had to do a senior design class in order to graduate. We were given the choice to pick from the projects that we liked but ultimately the project that were given to us were up to the discretion of our professors and the project sponsors, usually companies from the industries.
+
+Anyway, the project I and my team were given is a prototype for the CPAP mask with capacitive sensors on it. A sensing controller samples data from each of the sensors. Another microcontroller then polls the samples and process the samples (ie: performs calibration, encodes the samples and output serially etc. ...)
+
+</div> {::options parse_block_html="true" /}
+{::options parse_block_html="false" /}
+
+<div class = "CPAP_IMG">
+<p><img src="{{site.baseurl}}/img/project_img/CPAP.jpg" alt="CPAP" />
+<img src="{{site.baseurl}}/img/project_img/CPAP1.jpg" alt="CPAP1" />
+<img src="{{site.baseurl}}/img/project_img/CPAP2.jpg" alt="CPAP2" />
+<img src="{{site.baseurl}}/img/project_img/CPAP3.jpg" alt="CPAP3" />
+<img src="{{site.baseurl}}/img/project_img/CPAP4.jpg" alt="CPAP4" />
+<img src="{{site.baseurl}}/img/project_img/CPAP5.jpg" alt="CPAP5" />
+
+<p style="font-size: 100%; font-family: sans-serif;">The GUI is developed entirely using PyQt5. The new style signal and slots mechanism makes the implementations relatively quick and easy. The GUI has a serial listener thread that asynchronously reads data from the microcontroller.</p>
+<img class="CPAP_GUI" src="{{site.baseurl}}/img/project_img/CPAPGUI.PNG" alt="GUI" />
+<img class="CPAP_GUI" src="{{site.baseurl}}/img/project_img/Putty.PNG" alt="Terminal" /></p>
+
+</div> {::options parse_block_html="true" /}
+{::options parse_block_html="false" /}
