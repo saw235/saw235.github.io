@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Welcome to Lagrange!"
-author: "Paul Le"
+title: "Real-time Image Filtering using FPGA"
+author: "Saw"
 categories: journal
-tags: [documentation,sample]
-image: mountains.jpg
+tags: [projects]
+image: Girl2-min.jpg
 ---
 
 During my undergraduate years in Penn State, one of the project I have worked on is using FPGA to do an image processing at real time. The goal of the project was to feed in video stream from a camera and be able to do edge filtering with it at real time. My motivation for this project was two fold: one, I've read some articles online that there were some delay issues with performing image processing at the application level and two, I was extremely interested in computer vision at the time. Anyhow, this is the results of the project.
