@@ -6,6 +6,8 @@ categories: euler
 tags: [euler-project]
 ---
 
+Restarting my journey to solve the problems in https://projecteuler.net/ This will be the very first.
+
 ### Multiples of 3 and 5
 #### Problem 1
 
