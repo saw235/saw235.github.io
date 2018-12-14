@@ -4,10 +4,11 @@ title: "Euler Project - Problem 2"
 author: "Saw"
 categories: euler
 tags: [euler-project]
-image: fibona
+image: fibo_meme.png
 ---
 
 Attempt at problem 2. Not my first rodeo, but enjoyable regardless.
+
 
 ### Even Fibonacci numbers
 #### Problem 2
@@ -17,6 +18,8 @@ Attempt at problem 2. Not my first rodeo, but enjoyable regardless.
 > 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ...
 
 > By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
+
+https://projecteuler.net/problem=2
 
 ##### This problem here is pretty straight forward. First we get all the Fibonacci numbers under 4 million, remove the even valued terms, then sum them up.
 
