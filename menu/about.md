@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Welcome to Saw's Blog
+title: Code heretic
 ---
 
-I enjoy programming and mathematics.
+I like pizza. Gif pizza. 

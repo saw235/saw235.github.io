@@ -43,6 +43,7 @@ To use the equation above, we need the first term, the number of terms and the c
 
 The first term and the common difference is trivial in both cases.
 > For 3, 6, 9, ...   First term = 3, common difference = 3
+
 > For 5, 10, 15, ... First term = 5, common difference = 5
 
 To find the number of terms, it is suffice to calculate
